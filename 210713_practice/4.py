@@ -1,3 +1,5 @@
+# elice 배열..?
+
 from collections import itertools
 from string import ascii_lowercase
 
