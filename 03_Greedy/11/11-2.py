@@ -7,7 +7,7 @@ result = 0
 
 for num in nums:
     # result가 0 이거나 num 이 0 또는 1 이면 result에 더해준다.
-    if num == 0 or num == 1 or result == 0:
+    if num <= 1 or result <= 1:
         result += num
     else:
         result *= num
