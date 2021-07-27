@@ -18,7 +18,6 @@ def binary_search(dduck, target, start, end):
         return mid
 
 
-
 n, m = map(int, input().split())
 dduck = list(map(int, input().split()))
 max_dduck = max(dduck)
