@@ -14,4 +14,4 @@ for i in range(n):
 array.sort(key = lambda x:(-x[1], x[2], -x[3], x[0]))
 
 for student in array:
-    print(student[0])
+    print(student[0]) 
