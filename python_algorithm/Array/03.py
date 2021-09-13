@@ -1,5 +1,7 @@
 '''세 수의 합'''
 
+[-1, 0, 1, 2, -1, -4]
+
 # 나의풀이
 def threeSum(nums):
     nums.sort()
