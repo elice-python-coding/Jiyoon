@@ -8,4 +8,3 @@ def mergeTwoLists(self, l1, l2):
     if l1:
         l1.next = self.mergeTwoLists(l1.next, l2)
     return l1
-

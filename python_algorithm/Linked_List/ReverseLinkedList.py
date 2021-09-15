@@ -10,6 +10,7 @@ def reverseList(self, head):
 
     return reverse(head)
 
+
 # 반복 구조로 뒤집기
 def reverseList(self, head):
     node, prev = head, None
